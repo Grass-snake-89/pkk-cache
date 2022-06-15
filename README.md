@@ -1,4 +1,9 @@
 # pkk-cache
+## Описание
+Данный скрипт делает запрос к сайту https://pkk.rosreestr.ru, созраняет скачанный файл на диск и выдаёт для отображения.
+Создавался для JOSM, однако может использоваться и для других програм.
+
+## Установка
 1. Установите Python
   https://www.python.org/downloads/
 
@@ -14,11 +19,11 @@ pip install Pillow
 
 4. Запустите терминал в директории с файлом и выполните команду:
 ```
-export FLASK_APP=pkk && flask run
+export FLASK_APP=pkk-cache && flask run
 ```
 Примечание: если не получилось, попробуйте выполнить две отдельные команды:
 ```
-export FLASK_APP=pkk
+export FLASK_APP=pkk-cache
 flask run
 ```
 5. Откройте браузер и введите в адресной строке:
