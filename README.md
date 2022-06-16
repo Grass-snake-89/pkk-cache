@@ -17,15 +17,31 @@ pip install Pillow
 3. Скачайте файл pkk-cache.py
   https://github.com/Grass-snake-89/pkk-cache
 
-4. Запустите терминал в директории с файлом и выполните команду:
-```
-export FLASK_APP=pkk-cache && flask run
-```
-Примечание: если не получилось, попробуйте выполнить две отдельные команды:
-```
-export FLASK_APP=pkk-cache
-flask run
-```
+4. Запустите терминал в директории с файлом.
+    - При работе в **Linux** выполните команду:
+    ```
+    export FLASK_APP=pkk-cache && flask run
+    ```
+    Примечание: если не получилось, попробуйте выполнить две отдельные команды:
+    ```
+    export FLASK_APP=pkk-cache
+    flask run
+    ```
+
+    - При работе в **Windows** выполните команду:
+
+    ```
+    set FLASK_APP=pkk-cache && flask run
+    ```
+    Примечание: если не получилось, попробуйте выполнить две отдельные команды:
+
+    ```
+    set FLASK_APP=pkk-cache
+    flask run
+    ```
+
+    - Другие способы запуска (**Fish**, **Powershell**) указаны на странице [Документацию Flask](https://flask.palletsprojects.com/en/2.1.x/quickstart/).
+
 5. Откройте браузер и введите в адресной строке:
   127.0.0.1:5000
 Должна появиться надпись «It works!». Если да, то значит скорее всего всё работает.
