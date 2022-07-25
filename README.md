@@ -54,22 +54,22 @@ pip install Pillow
 
 Публичная кадастровая карта — Земельные участки
 ```
-wms:http://127.0.0.1:5000/path/land?bbox={bbox}
+wms[20]:http://127.0.0.1:5000/path/land?bbox={bbox}
 ```
 
 Публичная кадастровая карта — Здания и сооружения
 ```
-wms:http://127.0.0.1:5000/path/building?bbox={bbox}
+wms[20]:http://127.0.0.1:5000/path/building?bbox={bbox}
 ```
 
 Публичная кадастровая карта — Границы единиц АТД и населённых пунктов
 ```
-wms:http://127.0.0.1:5000/path/boundary?bbox={bbox}
+wms[20]:http://127.0.0.1:5000/path/boundary?bbox={bbox}
 ```
 
 Публичная кадастровая карта — Зоны и территории
 ```
-wms:http://127.0.0.1:5000/path/zone?bbox={bbox}
+wms[20]:http://127.0.0.1:5000/path/zone?bbox={bbox}
 ```
 
 Нажмите ОК в двух окнах.
